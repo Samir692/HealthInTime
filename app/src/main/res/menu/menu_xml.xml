@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppTheme"
+    tools:context="com.example.android.health_in_time.BaseActivity">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            app:showAsAction="never"
+            />
+    <item android:id="@+id/history"
+        android:title="@string/history"
+        android:icon="@drawable/ic_history_black_24dp"
+        app:showAsAction="never"
+        />
+
+
+    <item android:id="@+id/logout"
+        android:title="Log out"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        app:showAsAction="never"/>
+
+    </group>
+
+</menu>

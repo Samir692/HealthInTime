@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout">
+
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="170dp"
+            android:layout_height="90dp"
+            android:text="@+id/text"
+            android:layout_margin="12dp"
+            android:textSize="32dp"></TextView>
+
+
+        <SurfaceView
+            android:id="@+id/preview"
+            android:layout_width="25dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:visibility="visible"></SurfaceView>
+    </LinearLayout>
+
+
+    <RelativeLayout android:id="@+id/RelativeLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <ImageButton
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/start"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="69dp"></ImageButton>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
